@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+.ghi{
+    margin: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('img8.jpeg') no-repeat;
+    background-size: cover;
+}
+
+.ghi {
+    width: 420px;
+    background: transparent;
+    color: #fcfafa;;
+}
+
+.ghi h1 {
+    font-size: 36px;
+    text-align: center;
+    color: rgb(4, 4, 4);
+}
+.ghi .input-box {
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+}
+
+.ghi input {
+    width: 100%;
+    height: 10%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(20, 0, 0);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    }
+
+.input-box input::placeholder{
+    color: #cbbebe;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black;
+}
+
+.ghi .btn{
+    margin: 2%;
+    width: 50%;
+    height: 45px;
+    outline: none;
+    box-shadow: 0 0 10px;
+    background-color: rgb(137, 137, 143);
+}

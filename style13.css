@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #3c4048;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.token-card {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.token-card h2 {
+  margin: 0;
+  color: #333;
+}
+
+.token-card p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.token-id {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  background-color: #e9f5ff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}

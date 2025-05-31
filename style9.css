@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+.pqr{
+    margin: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    justify-self: unset;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-size: cover;
+    background-color: rgb(11, 11, 11);
+    text-align: center;
+    justify-self: unset;
+    background-image: url(img.jpg);
+}
+
+.pqr {
+    width: 420px;
+    background: transparent;
+    color: #f2f0f0;;
+}
+
+.pqr h2 {
+    font-size: 30px;
+    margin-left: 10%;
+    color: white;
+    text-align: left;
+}
+.pqr h3 {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(199, 30, 52);
+    text-align: left;
+}
+
+.pqr .input-box {
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 10%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(20, 0, 0);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    }
+
+.input-box input::placeholder{
+    color: #0b0b0b;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black;
+}
+
+.pqr .btn{
+    margin: 3%;
+    width: 50%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius:30px;
+    box-shadow: 0 0 10px;
+    background-color: rgb(106, 22, 22);
+    color: #fff;
+}
